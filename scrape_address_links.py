@@ -30,9 +30,10 @@ def get_park_info(raw_park_data):
     park_name = raw_park_data["attributes"]["PMA_Name"]
     park_id = raw_park_data["attributes"]["PMA"]
 
+    alternative_url = f"https://seattle.gov/parks/allparks/?ID={park_id}"
     sanitized_name = park_name.lower().replace(" ", "-").replace(".", "")
-    url = f"http://seattle.gov/parks/allparks/{sanitized_name}"
-    return park_name, park_id, url
+    url = f"https://seattle.gov/parks/allparks/{sanitized_name}"
+    return park_name, park_id, url, alternative_url
 
 
 def get_maps_link_from_page(url: str):
@@ -65,34 +66,40 @@ def get_maps_link_from_page(url: str):
 
 def main():
 
+    successful_pages = set()
+    missing_map_link = []
+
+    def record_results(result, map_link, park_name, url):
+        if result == LinkResult.Successful:
+            print(f"Map link for {park_name}: {map_link}")
+            successful_pages.add((park_name, map_link))
+        elif result == LinkResult.PageMissing:
+            print(f"Failed to find valid page for {park_name}")
+        elif result == LinkResult.LinkMissing:
+            print(f"Map link was missing from the page for {park_name}")
+            missing_map_link.append(url)
+
     parks = get_park_container()
     print(f"Found {len(parks)} parks in the list")
 
-    successful_pages = 0
-    missing_map_link = []
+    for park in parks:
+        park_name, park_id, url, alt_url = get_park_info(park)
+        print("--------------------------------------------------------------------")
+        print(f"Trying {park_name}, {park_id}")
+        try:
+            map_link, result = get_maps_link_from_page(url)
+            record_results(result, map_link, park_name, url)
+            if alt_url is not None:
+                map_link, result = get_maps_link_from_page(alt_url)
+                record_results(result, map_link, park_name, url)
+        except Exception as e:
+            print(f"Failed to parse {park_name}, {park_id}")
+            raise e
+
     with open("google_maps_links.txt", "w", newline="", encoding="utf-8") as f:
         map_link_writer = csv.writer(f)
-        for park in parks:
-            park_name, park_id, url = get_park_info(park)
-            print(
-                "--------------------------------------------------------------------"
-            )
-            print(f"Trying {park_name}, {park_id}")
-            try:
-                map_link, result = get_maps_link_from_page(url)
-            except Exception as e:
-                print(f"Failed to parse {park_name}, {park_id}")
-                raise e
-
-            if map_link is None:
-                print(f"Failed to find valid page for {park_name}")
-                if result == LinkResult.LinkMissing:
-                    missing_map_link.append(url)
-                continue
-
-            print(f"Map link for {park_name}: {map_link}")
+        for park_name, map_link in successful_pages:
             map_link_writer.writerow([map_link, park_name])
-            successful_pages += 1
 
     print("Valid pages with no maps:")
     pprint(missing_map_link)
