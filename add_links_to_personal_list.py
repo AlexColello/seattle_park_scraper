@@ -21,10 +21,10 @@ def parse_list_name(list_name_element):
     return list_name_element.text.split("\n")[-1]
 
 
-with open("google_maps_links.txt", "r") as f:
+with open("patched_google_maps_links.txt", "r") as f:
     list_index = None
     count = 0
-    for link, name in csv.reader(f):
+    for name, link in csv.reader(f):
         try:
             print(f"Adding {name} at {link}")
 

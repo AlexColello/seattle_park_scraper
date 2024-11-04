@@ -1,5 +1,6 @@
 Boren Park,https://maps.app.goo.gl/bpvf5drLuwVK2MHy5
 Thayer Place,https://maps.app.goo.gl/Bps5y2rTNQE2At9Y6
+Weather Watch Park,https://maps.app.goo.gl/ZES6f75X413o75d99
 12th Ave. Square Park,https://goo.gl/maps/hs6WfUT278y
 12th West & West Howe Park,https://goo.gl/maps/7a4Q9UND7wG2
 14th Avenue NW Boat Ramp,https://goo.gl/maps/zQ4jMR9BoWG2
@@ -365,7 +366,6 @@ Washington Park Playfield,https://goo.gl/maps/yrMLzh1jdQz
 Washington Street Boat Landing,https://goo.gl/maps/1xiQ22sw93L2
 Waterfront Park,https://goo.gl/maps/1W9CcT2n3XH2
 Watton Site,https://goo.gl/maps/1dVPh4G6uPA2
-Weather Watch Park,https://goo.gl/maps/N5PxDyqrBfM2
 Webster Park,https://goo.gl/maps/TC7pSaRHeSU2
 Wedgwood Square,https://goo.gl/maps/8cF9Pw75zbK2
 West Duwamish Greenbelt,https://goo.gl/maps/ckmcr4cXsu42
