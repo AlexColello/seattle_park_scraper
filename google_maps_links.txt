@@ -43,6 +43,7 @@ Bradner Gardens Park,https://goo.gl/maps/oZuWpB6tpcR2
 Brighton Playfield,https://goo.gl/maps/SHztpacMuU32
 Broadway Hill Park,https://goo.gl/maps/LBzqxc1i8yB2
 Bryant Neighborhood Playground,https://goo.gl/maps/ubgXVXdktK42
+Burke-Gilman Playground Park,"https://www.google.com/maps/place/5201+Sand+Point+Way+NE,+Seattle,+WA+98105/@47.6674753,-122.2864403,17z/data=!3m1!4b1!4m6!3m5!1s0x5490137de21192eb:0xabaef184a72371bd!8m2!3d47.6674593!4d-122.2838551!16s%2Fg%2F11pxw_x8wv?entry=ttu"
 Burke-Gilman Trail,https://goo.gl/maps/ocS12H4Mqmt
 Cal Anderson Park,https://goo.gl/maps/fq2tYntLkgr
 California Place,https://goo.gl/maps/g7omQMqqw3n
@@ -84,10 +85,10 @@ Denny Blaine Park,https://goo.gl/maps/bqwvkDftjW42
 Denny Park,https://goo.gl/maps/ZJUmEJqcB2B2
 Discovery Park,https://goo.gl/maps/PTcd126xYZ32
 Donnie Chin International Children's Park,https://goo.gl/maps/59CVAVsSjFU2
-Dr. Jose Rizal Park,https://goo.gl/maps/xrDeJgcKo9H2
 Duwamish Head Greenbelt,https://goo.gl/maps/nyaVKgQZpuF2
 Duwamish Waterway Park,https://goo.gl/maps/Y494EWVXm142
 E.C. Hughes Playground,https://goo.gl/maps/Xsf9FK2H1RC2
+East Duwamish GS: Beacon Ave S,"https://www.google.com/maps/place/1827+11th+Ave+S,+Seattle,+WA+98134/data=!4m2!3m1!1s0x54906a9ae9b8c99f:0xfbad0f2351c6d656?sa=X&ved=0ahUKEwjf36L037HWAhUhwVQKHUpEBecQ8gEIJzAA"
 East Montlake Park,https://goo.gl/maps/NHSMs9FxGCp
 East Queen Anne Playground,https://goo.gl/maps/ZVf85Rd5fzz
 Eastmont Place,https://goo.gl/maps/rZx2mswZbtQ2
@@ -123,17 +124,14 @@ Green Lake Park,https://goo.gl/maps/ps2Hz31mYjm
 Greenwood Park,https://goo.gl/maps/KfhhJWp34Zw
 Greenwood Triangle,https://goo.gl/maps/dnNhUMUQSxv
 Greg Davis Park,https://goo.gl/maps/h6jEu7XRoqK2
-Haller Lake Community St End,https://goo.gl/maps/3xApCxa24qS2
 Hamilton Viewpoint Park,https://goo.gl/maps/nyaVKgQZpuF2
 Harrison Ridge Greenbelt,https://goo.gl/maps/sm5aWfnFhhy
 Harvard-Miller/Roanoke Annex,https://goo.gl/maps/fohH2JP42SD2
-Herrings House Park (Tulaltx),https://goo.gl/maps/BEfngLkrQJx
 Hiawatha Playfield,https://goo.gl/maps/kk2DR23zXSz
 Highland Drive Parkway,https://goo.gl/maps/q3PzLVpAwax
 Highland Park Playground,https://goo.gl/maps/A7EMaTGcRxz
 Highland Place,https://goo.gl/maps/vi4J9MFDNCr
 Hing Hay Park,https://goo.gl/maps/mdX9ShEqwHJ2
-Hing Hay Park Addition,https://goo.gl/maps/mdX9ShEqwHJ2
 Hitt's Hill Park,https://goo.gl/maps/5NP8oMSpnZk
 Homer Harris Park,https://goo.gl/maps/xfz6Scrzd3E2
 Horiuchi Park,https://goo.gl/maps/FN9Wjv1XJTz
@@ -143,7 +141,6 @@ Hubbard Homestead Park,https://goo.gl/maps/XV82yWffTXL2
 Hunter Boulevard,https://goo.gl/maps/XwwAMRQ3GK32
 Hyde Place,https://goo.gl/maps/p7iY7BLYtmt
 I-5 Colonnade,https://goo.gl/maps/H6kbPsztJ7q
-Interbay Athletic Field,https://goo.gl/maps/jaBYXRs7xpF2
 Interlaken Park,https://goo.gl/maps/Hrr2AyiohSz
 Inverness Ravine Park,https://goo.gl/maps/hy9T9b96zyk
 Jefferson Park,https://goo.gl/maps/VSTmm55Groy
@@ -153,7 +150,6 @@ Jimi Hendrix Park,https://goo.gl/maps/5sWLdnFo2B12
 Judge Charles M. Stokes Overlook,https://goo.gl/maps/3nZQxFxzMWn
 Judkins Park and Playfield,https://goo.gl/maps/8GDH6c6jQM82
 Julia Lee's Park,https://goo.gl/maps/dX7GvGWoofH2
-Junction Plaza Park,https://goo.gl/maps/QKyefGsTAMn
 Katie Black's Garden,https://goo.gl/maps/8s9Xk2xr6Cw
 Kerry Park (Franklin Place),https://goo.gl/maps/yMJMdqC52s42
 Kerry Park and Viewpoint,https://goo.gl/maps/yMJMdqC52s42
@@ -166,21 +162,19 @@ Kiwanis Memorial Preserve Park,https://goo.gl/maps/6CNSy57h8Wy
 Kobe Terrace,https://goo.gl/maps/9RhgKKG827n
 Kubota Gardens,https://goo.gl/maps/cfkQs4bymmt
 Lake City Memorial Triangle,https://goo.gl/maps/UErgbxh7yVm
-Lake City Park,https://goo.gl/maps/nJKSbJhY3kk
-Lake People Park (Xacua'bs),https://goo.gl/maps/c57CVG59AQH2
+Lake City Park,"https://www.google.com/maps/place/12510+33rd+Ave+NE,+Seattle,+WA+98125/@47.7197921,-122.2949608,17z/data=!3m1!4b1!4m6!3m5!1s0x5490117b6022fbd9:0x3f43d91410b8f1c1!8m2!3d47.7197885!4d-122.2923859!16s%2Fg%2F11b8v4ybbx?entry=ttu"
+Lake City Urban Hub Village,"https://www.google.com/maps/place/12510+33rd+Ave+NE,+Seattle,+WA+98125/@47.7197921,-122.2949608,17z/data=!3m1!4b1!4m6!3m5!1s0x5490117b6022fbd9:0x3f43d91410b8f1c1!8m2!3d47.7197885!4d-122.2923859!16s%2Fg%2F11b8v4ybbx?entry=ttu"
 Lake Union Park,https://goo.gl/maps/DNjjb3Buhs52
 Lake Washington Boulevard,https://goo.gl/maps/4ph9sxH5XVP2
 Lakeridge Park,https://goo.gl/maps/cZBfAgRoD7y
-Lakeridge Playground,https://goo.gl/maps/rAzexUBuSGN2
 Lakeview Park,https://goo.gl/maps/S6DFW15ik2D2
 Lakeview Place,https://goo.gl/maps/D7cWTQRnTC12
 Lakewood Moorage,https://goo.gl/maps/mJRNMNBTKwq
 Lakewood Triangle,https://goo.gl/maps/981KFyr1Lgw
+Lambert Place,https://goo.gl/maps/VmqeHhzSZL72
 Landing Parkway,https://goo.gl/maps/rABVxeiMWMF2
 Lawton Park,https://goo.gl/maps/rctE1HDPyn82
 Leschi Park,https://goo.gl/maps/JsN8pGqPzon
-Leschi Park Moorage,https://goo.gl/maps/JsN8pGqPzon
-Leschi Park and South Moorage,https://goo.gl/maps/JsN8pGqPzon
 Leschi-Lake Dell Natural Area,https://goo.gl/maps/nRhNnLDAZBm
 Lewis Park,https://goo.gl/maps/akjUB7ffhgr
 Licton Springs Park,https://goo.gl/maps/dpV72tmavBU2
@@ -188,7 +182,7 @@ Lincoln Park,https://goo.gl/maps/SVxW9cMhDW52
 Linden Orchard Park,https://goo.gl/maps/jWNWURuAph72
 Little Brook Park,https://goo.gl/maps/79wZUpbFfhQ2
 Llandover Woods Greenspace,https://goo.gl/maps/XbvAtjFd3V82
-Longfellow Creek GS: North,https://goo.gl/maps/KDC2cD6HNqL2
+Longfellow Creek Natural Area,https://goo.gl/maps/KDC2cD6HNqL2
 Lowman Beach Park,https://goo.gl/maps/DTqEHiLPVP62
 Loyal Heights Playfield,https://goo.gl/maps/pkJRN2WSYe62
 Lynn Street Mini Park,https://goo.gl/maps/Yfh6GgHA5KE2
@@ -203,14 +197,13 @@ Magnolia Boulevard,https://goo.gl/maps/ntGA4utGdCS2
 Magnolia Greenbelt,https://goo.gl/maps/DzEwkMDQHz82
 Magnolia Manor Park,https://goo.gl/maps/2i8dHS71mEP2
 Magnolia Park,https://goo.gl/maps/fR3NspydxhC2
-Magnolia Park,https://goo.gl/maps/fR3NspydxhC2
+Magnolia Tidelands Park,https://goo.gl/maps/y9kZv749X9z
 Maple Leaf Reservoir Park,https://goo.gl/maps/XeQjADnncgH2
 Maple School Ravine,https://goo.gl/maps/3VegciqMSQn
 Maple Wood Playfield,https://goo.gl/maps/aQNfsNTGy9k
 Marra-Desimone Park,https://goo.gl/maps/5EXnUFjCnTy
 Marshall Park,https://goo.gl/maps/4Awp4mhCmtG2
 Martha Washington Park,https://goo.gl/maps/4ktroB5mHHD2
-Martin Luther King JR Memorial,https://goo.gl/maps/ifoNhmuTk3w
 Marvins Garden,https://goo.gl/maps/W75R8xtGXqv
 Matthews Beach Park,https://goo.gl/maps/NiGjhJzw7Nn
 Mayfair Park,https://goo.gl/maps/nWcxB41o8SC2
@@ -235,6 +228,7 @@ Mount Claire Park,https://goo.gl/maps/e6b3uHJdmdD2
 Mt Baker Ridge Viewpoint,https://goo.gl/maps/eTds32vs5An
 Myrtle Edwards Park,https://goo.gl/maps/ekYRtWmSVRm
 Myrtle Reservoir Park,https://goo.gl/maps/mSFyfpqFr7R2
+NE 130th Street End,"https://www.google.com/maps/place/13000+Riviera+Pl+NE,+Seattle,+WA+98125/@47.7229815,-122.2836674,17z/data=!3m1!4b1!4m6!3m5!1s0x5490117f520e15c7:0x5ad9933c8836d5e1!8m2!3d47.7229779!4d-122.2810925!16s%2Fg%2F11k3rk8cq0?entry=ttu"
 NE 60th Street Park,https://goo.gl/maps/RymtUikeC1s
 NW 60th Street Viewpoint,https://goo.gl/maps/3Ryq4EGLAPF2
 Nantes Park,https://goo.gl/maps/kwq3EoHgpwj
@@ -255,9 +249,7 @@ Parkmont Place,https://goo.gl/maps/7jk8z6by9u22
 Parsons Gardens,https://goo.gl/maps/uc2U6SKCDr92
 Pelly Place Natural Area,https://goo.gl/maps/yPhmL2Rc9TE2
 Pendleton Miller Playfield,https://goo.gl/maps/AT9GKs3oSMN2
-Peppi's Playground,https://goo.gl/maps/PwL1hnxKVow
 Piers 62 and 63,https://goo.gl/maps/513LB4egRGw
-Pigeon Point,https://goo.gl/maps/oVFNjCKWG2F2
 Pigeon Point,https://goo.gl/maps/oVFNjCKWG2F2
 Pinehurst Playground,https://goo.gl/maps/UhAXWdgKaSP2
 Pinehurst Pocket Park,https://goo.gl/maps/MWPr2utqpsw
@@ -272,7 +264,6 @@ Prentis I. Frazier Park,https://goo.gl/maps/Xut79dmChnG2
 Pritchard Island Beach,https://goo.gl/maps/pyMfFAW1r4R2
 Puget Boulevard,https://goo.gl/maps/ZMdwvCwS1Qo
 Puget Creek Greenspace,https://goo.gl/maps/YhXfTn73H6t
-Puget Creek Natural Area,https://goo.gl/maps/YhXfTn73H6t
 Puget Ridge Playground,https://goo.gl/maps/dHBMVgXWwvF2
 Queen Anne Bowl Playfield,https://goo.gl/maps/HHYdu31wRJQ2
 Rainier Beach Playfield,https://goo.gl/maps/GPjnpmj5DYR2
@@ -287,6 +278,7 @@ Ravenna-Eckstein Park,https://goo.gl/maps/zmqKD6H9Myj
 Regrade Park,https://goo.gl/maps/gpHXdk15oqu
 Riverview Playfield,https://goo.gl/maps/mtuEkqHkN3y
 Roanoke Park,https://goo.gl/maps/yHkcBRS1jxk
+Roanoke Street Mini Park,https://goo.gl/maps/wd386Sbmh5m
 Rogers Playground,https://goo.gl/maps/3WQEa14h44t
 Ross Playground,https://goo.gl/maps/7DezLeLTGoP2
 Rotary Viewpoint,https://goo.gl/maps/Jb59fKq3VDk
@@ -332,7 +324,6 @@ Thayer Place,https://goo.gl/maps/GwaAVMPPHTA2
 Thomas C. Wales Park,https://goo.gl/maps/12TA8gBUyb52
 Thomas Street Mini Park,https://goo.gl/maps/GEV64cZTy642
 Thorndyke Park,https://goo.gl/maps/QZ1chMs8b7p
-Thornton Creek Natural Area: 25th/95th,https://goo.gl/maps/VSYZ2hozeFE2
 Tilikum Place,https://goo.gl/maps/MwhZQfd2pt22
 Troll's Knoll Park,https://goo.gl/maps/RxTny3Ywqj32
 Trolley Hill Park,https://goo.gl/maps/5Q1zeaXDWh72
@@ -341,14 +332,12 @@ Twelfth Avenue South Viewpoint,https://goo.gl/maps/b3p92LpwWPq
 Union Bay Boglands #1,https://goo.gl/maps/7g8hy9LSt3A2
 Union Station Square,https://goo.gl/maps/RBWr2m7m9PE2
 University Circle,https://goo.gl/maps/wX4Zi1NmMB72
-University Heights,https://goo.gl/maps/mNux9PcnXaA2
 University Lake Shore Place,https://goo.gl/maps/VSeqdGZBDcB2
 University Playground,https://goo.gl/maps/6qPzTZD3xJB2
 Urban Triangle Park,https://goo.gl/FsVzDQ
 Ursula Judkins Viewpoint,https://goo.gl/maps/UrUAQHuN2GE2
 Van Asselt Playground,https://goo.gl/maps/PqJiVARqBMz
 Victor Steinbrueck Park,https://goo.gl/maps/665gu9iEE6F2
-Victory Creek Confluence Natural Area on TC,https://goo.gl/maps/VSYZ2hozeFE2
 Victory Creek Park,https://goo.gl/maps/h68GHcR7qjn
 Victory Heights Playground,https://goo.gl/maps/mnFek76jj4S2
 View Ridge Playfield,https://goo.gl/maps/uKothQK5zPp
@@ -357,12 +346,12 @@ Virgil Flaim Park,https://goo.gl/maps/kZVYKPbAjxJ2
 Volunteer Park,https://goo.gl/maps/ikAdJgWehPq
 Volunteer Parkway,https://goo.gl/maps/49PqNaDyMi12
 Wallingford Playfield,https://goo.gl/maps/pEm1MFxhc2F2
+Wallingford Steps,https://goo.gl/maps/uoBGjuriwHF2
 Ward Springs Park,https://goo.gl/maps/ZTU89LwnEsR2
 Warren G. Magnuson Park,https://goo.gl/maps/1LN7RWKE59x
 Washington Park,https://goo.gl/maps/yrMLzh1jdQz
 Washington Park - Japanese Gdn,https://goo.gl/maps/wgaQycD7vkG2
 Waterfront Park,https://goo.gl/maps/1W9CcT2n3XH2
-Watton Life Estate,https://goo.gl/maps/1dVPh4G6uPA2
 Webster Park,https://goo.gl/maps/TC7pSaRHeSU2
 Wedgwood Square,https://goo.gl/maps/8cF9Pw75zbK2
 West Duwamish GS: Puget Park,https://goo.gl/maps/ckmcr4cXsu42

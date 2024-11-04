@@ -55,11 +55,11 @@ def get_maps_link_from_page(url: str):
 
     # print(soup)
 
-    link = soup.find(href=re.compile(r"https:\/\/goo\.gl\/."))
+    link = soup.find(href=re.compile(r"(https:\/\/goo\.gl\/.)|(https:\/\/www.google.com\/maps\/place\/.)"))
 
     if link is None:
         print("Could not find a Google Maps link on the page!")
-        return None, LinkResult.LinkMissing
+        return url, LinkResult.LinkMissing
 
     return link["href"], LinkResult.Successful
 
@@ -67,9 +67,9 @@ def get_maps_link_from_page(url: str):
 def main():
 
     successful_pages = set()
-    missing_map_link = []
+    missing_map_link = set()
 
-    def record_results(result, map_link, park_name, url):
+    def record_results(result, map_link, park_name):
         if result == LinkResult.Successful:
             print(f"Map link for {park_name}: {map_link}")
             successful_pages.add((park_name, map_link))
@@ -77,7 +77,7 @@ def main():
             print(f"Failed to find valid page for {park_name}")
         elif result == LinkResult.LinkMissing:
             print(f"Map link was missing from the page for {park_name}")
-            missing_map_link.append(url)
+            missing_map_link.add(map_link)
 
     parks = get_park_container()
     print(f"Found {len(parks)} parks in the list")
@@ -88,18 +88,24 @@ def main():
         print(f"Trying {park_name}, {park_id}")
         try:
             map_link, result = get_maps_link_from_page(url)
-            record_results(result, map_link, park_name, url)
+            record_results(result, map_link, park_name)
             if alt_url is not None:
                 map_link, result = get_maps_link_from_page(alt_url)
-                record_results(result, map_link, park_name, url)
+                record_results(result, map_link, park_name)
         except Exception as e:
             print(f"Failed to parse {park_name}, {park_id}")
             raise e
 
+    successful_pages = list(successful_pages)
+    missing_map_link = list(missing_map_link)
+
+    successful_pages.sort()
+    missing_map_link.sort()
+
     with open("google_maps_links.txt", "w", newline="", encoding="utf-8") as f:
         map_link_writer = csv.writer(f)
         for park_name, map_link in successful_pages:
-            map_link_writer.writerow([map_link, park_name])
+            map_link_writer.writerow([park_name, map_link])
 
     print("Valid pages with no maps:")
     pprint(missing_map_link)
@@ -108,7 +114,7 @@ def main():
             f.write(f"{page}\n")
 
     print(
-        f"Successfully found {successful_pages} links and {len(missing_map_link)} parks with no map link for at total of {successful_pages + len(missing_map_link)} parks"
+        f"Successfully found {len(successful_pages)} links and {len(missing_map_link)} parks with no map link for at total of {len(successful_pages) + len(missing_map_link)} parks"
     )
 
 

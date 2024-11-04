@@ -3,6 +3,7 @@ https://seattle.gov/parks/allparks/bergen-place
 https://seattle.gov/parks/allparks/bhy-kracke-park
 https://seattle.gov/parks/allparks/bitter-lake-playfield
 https://seattle.gov/parks/allparks/blanche-lavizzo-park
+https://seattle.gov/parks/allparks/boren-place
 https://seattle.gov/parks/allparks/boylston-place
 https://seattle.gov/parks/allparks/cascade-playground
 https://seattle.gov/parks/allparks/cormorant-cove
@@ -10,14 +11,12 @@ https://seattle.gov/parks/allparks/daejeon-park
 https://seattle.gov/parks/allparks/david-rodgers-park
 https://seattle.gov/parks/allparks/delridge-and-myrtle-park
 https://seattle.gov/parks/allparks/don-armeni-boat-ramp
-https://seattle.gov/parks/allparks/east-duwamish-greenbelt
 https://seattle.gov/parks/allparks/east-portal-viewpoint
 https://seattle.gov/parks/allparks/garfield-playfield
-https://seattle.gov/parks/allparks/lake-city-park
+https://seattle.gov/parks/allparks/gemenskap-park
 https://seattle.gov/parks/allparks/lake-washington-boulevard
 https://seattle.gov/parks/allparks/lakewood-playground
 https://seattle.gov/parks/allparks/laurelhurst-playfield
-https://seattle.gov/parks/allparks/pathways-park
 https://seattle.gov/parks/allparks/puget-park
 https://seattle.gov/parks/allparks/queen-anne-boulevard
 https://seattle.gov/parks/allparks/rainbow-point
