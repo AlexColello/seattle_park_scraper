@@ -35,6 +35,19 @@ def get_park_info(raw_park_data):
     url = f"https://seattle.gov/parks/allparks/{sanitized_name}"
     return park_name, park_id, url, alternative_url
 
+def get_listed_parks():
+    links = []
+    for start_letter, end_letter in [('a', 'd'), ('e', 'h'), ('i', 'l'), ('m', 'p'), ('q', 't'), ('u', 'z')]:
+        r = requests.get(f"https://www.seattle.gov/parks/allparks/parks-{start_letter}-{end_letter}?pageNum=1&itemsPer=1000", verify=False)
+        assert r.status_code == 200
+
+        soup = BeautifulSoup(r.content, features="html.parser")
+        rows = soup.find_all("h2", {"class": "paginationTitle"})
+        for row in rows:
+            name = row.text.strip()
+            url = f'https://seattle.gov/{row.a["href"]}'
+            links.append((name, url))
+    return links
 
 def get_maps_link_from_page(url: str):
     r = requests.get(url, verify=False)
@@ -66,21 +79,38 @@ def get_maps_link_from_page(url: str):
 
 def main():
 
-    successful_pages = set()
+    successful_pages = []
+    successful_links = set()
     missing_map_link = set()
 
     def record_results(result, map_link, park_name):
         if result == LinkResult.Successful:
             print(f"Map link for {park_name}: {map_link}")
-            successful_pages.add((park_name, map_link))
+            if map_link in successful_links:
+                print(f"A page with a link to {map_link} already exists! Skipping {park_name}")
+            else:
+                successful_links.add(map_link)
+                successful_pages.append((park_name, map_link))
         elif result == LinkResult.PageMissing:
             print(f"Failed to find valid page for {park_name}")
         elif result == LinkResult.LinkMissing:
             print(f"Map link was missing from the page for {park_name}")
             missing_map_link.add(map_link)
 
+    listed_parks = get_listed_parks()
+    print(f"Found {len(listed_parks)} listed parks")
+    for park_name, url in listed_parks:
+        print("--------------------------------------------------------------------")
+        print(f"Trying {park_name}")
+        try:
+            map_link, result = get_maps_link_from_page(url)
+            record_results(result, map_link, park_name)
+        except Exception as e:
+            print(f"Failed to parse {park_name}")
+            raise e
+
     parks = get_park_container()
-    print(f"Found {len(parks)} parks in the list")
+    print(f"Found {len(parks)} parks from GIS")
 
     for park in parks:
         park_name, park_id, url, alt_url = get_park_info(park)
@@ -96,7 +126,7 @@ def main():
             print(f"Failed to parse {park_name}, {park_id}")
             raise e
 
-    successful_pages = list(successful_pages)
+    successful_pages = successful_pages
     missing_map_link = list(missing_map_link)
 
     successful_pages.sort()
@@ -114,7 +144,7 @@ def main():
             f.write(f"{page}\n")
 
     print(
-        f"Successfully found {len(successful_pages)} links and {len(missing_map_link)} parks with no map link for at total of {len(successful_pages) + len(missing_map_link)} parks"
+        f"Successfully found {len(successful_pages)} links and {len(missing_map_link)} parks with no map link for a total of {len(successful_pages) + len(missing_map_link)} parks"
     )
 
 

@@ -17,6 +17,7 @@ https://seattle.gov/parks/allparks/gemenskap-park
 https://seattle.gov/parks/allparks/lake-washington-boulevard
 https://seattle.gov/parks/allparks/lakewood-playground
 https://seattle.gov/parks/allparks/laurelhurst-playfield
+https://seattle.gov/parks/allparks/peace-park
 https://seattle.gov/parks/allparks/puget-park
 https://seattle.gov/parks/allparks/queen-anne-boulevard
 https://seattle.gov/parks/allparks/rainbow-point
