@@ -1,3 +1,30 @@
 Boren Park,https://maps.app.goo.gl/bpvf5drLuwVK2MHy5
 Thayer Place,https://maps.app.goo.gl/Bps5y2rTNQE2At9Y6
 Weather Watch Park,https://maps.app.goo.gl/ZES6f75X413o75d99
+Magnolia Tidelands Park,https://maps.app.goo.gl/rdtykB8JVW3kK2xS7
+Bell Street Park,https://maps.app.goo.gl/zzKgSK7nNsDCu3tX6
+Bergen Place,https://maps.app.goo.gl/aNrE5pmAgXUK23jG8
+Bhy Kracke Park,https://maps.app.goo.gl/xYbcjUM9zvu2udES6
+Bitter Lake Playfield,https://maps.app.goo.gl/jEVKG5kKQxXkunTT9
+Blanche Lavizzo Park (Dr.),https://maps.app.goo.gl/CDPRrDTDYV7LopYE7
+Boren Place,https://maps.app.goo.gl/oFesicGtM8SbTnaJ7
+Boylston Place,https://maps.app.goo.gl/XXqFDfg51JSBRMwq7
+Cascade Playground,https://maps.app.goo.gl/YigYorw56BrFwD1o9
+Cormorant Cove,https://maps.app.goo.gl/4v63cLv6uWpN6SSd8
+Daejeon Park,https://maps.app.goo.gl/wPjPkUXnmDEuRKY36
+David Rodgers Park,https://maps.app.goo.gl/vihuHYgTewbmnP5V9
+Delridge and Myrtle Park,https://maps.app.goo.gl/z5FBMr7157iA9p896
+Don Armeni Boat Ramp,https://maps.app.goo.gl/w2bhvjrFdLJZbji57
+East Portal Viewpoint,https://maps.app.goo.gl/NiYfDGgc3wcdSFEQ6
+Garfield Playfield,https://maps.app.goo.gl/ksAXmrer3g7hSuqc9
+Gemenskap Park,https://maps.app.goo.gl/FWanVsUDuww3N2Vy6
+Lake Washington Boulevard,https://maps.app.goo.gl/dCgJ1tg52SEmqE1B9
+Lakewood Playground,https://maps.app.goo.gl/zLcu8BCc6FvutG346
+Laurelhurst Playfield,https://maps.app.goo.gl/xtiM2SL7nQ5shWcZ7
+Peace Park,https://maps.app.goo.gl/ScChm2qjxddLMmA88
+Puget Park,https://maps.app.goo.gl/Jn6SmbSAh9jxSWF76
+Queen Anne Boulevard,https://maps.app.goo.gl/BGrv7bwsrGSPLBMa8
+Rainbow Point,https://maps.app.goo.gl/h4zhZfCnrAuYHkHn6
+SUN Park,https://maps.app.goo.gl/HRHtyzrvQDNhkt4M8
+Thyme Patch Park,https://maps.app.goo.gl/Wuk7TLidcmej1NXdA
+Walt Hundley Playfield,https://maps.app.goo.gl/Tt4yk6Zzq21kwNUw8
